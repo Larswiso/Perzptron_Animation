@@ -64,7 +64,7 @@ class Perceptron:
         # add text outside the plot
         
         
-        ax.set_title(f"Trainingsdaten | Perceptrongenauigkeit: {round(self.accuracy(self.X_train, self.y_train), 2)}")
+        ax.set_title(f"Trainingsdaten | Perzeptrongenauigkeit: {round(self.accuracy(self.X_train, self.y_train), 2)}")
         ax.plot(x_line, y_line, 'y', label="Trennlinie")
 
 
