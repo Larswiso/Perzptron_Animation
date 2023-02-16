@@ -13,10 +13,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 epochs = 10
 perzetron = Perceptron(X_train, y_train, epochs)
-perzetron.visualize()
+perzetron.visualize(save_Animation=True)
 
 acc_train = perzetron.accuracy(X_train, y_train)
 acc_test = perzetron.accuracy(X_test, y_test)
 
-print(f"Perceptrongenauigkeit der Trainingsdaten: {round(acc_train, 2)}")
-print(f"Perceptrongenauigkeit der Testsdaten: {round(acc_test, 2)}")
+print(f"Perzeptrongenauigkeit der Trainingsdaten: {round(acc_train, 2)}")
+print(f"Perzeptrongenauigkeit der Testsdaten: {round(acc_test, 2)}")
