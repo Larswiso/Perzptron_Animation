@@ -12,4 +12,4 @@ Ein Perzeptron besteht aus mehreren Eingangssignalen, einem Gewichtungsvektor un
 # Animation
 Die Animation zeigt, wie sich die Entscheidungslinie im Laufe der Epochen bewegt. Um die Animation zu sehen, setzen Sie 'save_Animation' auf 'True'.
 
-![me](https://github.com/Larswiso/Perzptron_Animation/blob/main/output/example.gif)
+![me](https://github.com/Larswiso/Perzptron_Animation/blob/main/output/perzeprtron00_40_14.gif)
